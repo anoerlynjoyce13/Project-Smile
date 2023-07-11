@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Dental Website</title>
+
+  <!----CSS Style---->
+  <link rel="stylesheet" href="login.css">
+  <!-----Icon------>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  
+  
+  <div class="wrapper">
+   
+    <div class="image">
+      <img src="images/logo crop.png" alt="Project Smile" width="80" height="77">
+    </div>
+    <h1>PROJECT SMILE</h1>
+    <form action="login.php">
+      <h2>LOG IN</h2>
+      <div class="input-box">
+        <input type="text" id="username" name="username" required placeholder="Username">
+        <i class='bx bxs-user'></i>
+      </div>
+      <div class="input-box">
+        <input type="password" id="password" name="password" required placeholder="Password">
+        <i class='bx bxs-lock-alt'></i>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" class="login-button" value="Login">
+      </div>
+
+      <div class="login-links">
+        <div>
+          <a href="Login.html">Log in as Admin</a>
+        </div>
+        <div>
+          <a href="forgetpassword.html">Forgot password?</a>
+        </div>
+      </div>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Agree to the Terms and Conditions</label>
+      </div>
+
+    </form>
+  </div>
+
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><strong>TERMS AND CONDITION</strong><br><br>
+  By logging into our platform, you agree to the following terms and conditions:<br><br>
+  <strong>1. Account Responsibility:</strong><br>
+  <ul>a. You are responsible for maintaining the confidentiality of your login credentials, including your username and password. Any activity that occurs under your account will be your sole responsibility. any other breach of security.</ul>
+  <ul>b. You must promptly notify us if you become aware of any unauthorized use of your account or </ul>
+  <strong>2. User Conduct:</strong><br>
+  <ul>a. You agree to use our platform solely for lawful purposes and in accordance with any applicable laws and regulations </ul>
+  <ul>b. You shall not engage in any activity that may disrupt or interfere with the proper functioning of our platform, including but not limited to hacking, distributing malware, or engaging in any form of unauthorized access </ul>
+  <strong>3. Privacy and Data Protection:</strong><br>
+  <ul>a. We respect your privacy and will handle your personal information in accordance with our Privacy Policy.</ul>
+  <ul>b. By logging into our platform, you acknowledge and agree that we may collect and process certain information about you as described in our Privacy Policy.</ul>
+  <strong>4. Intellectual Property: </strong><br>
+  <ul>a. All intellectual property rights, including but not limited to copyrights, trademarks, and patents, related to our platform and its content are owned by or licensed to us. </ul>
+  <ul>b. You may not reproduce, distribute, modify, or create derivative works of our platform or its content without our prior written consent. </ul>
+  <strong>5. Termination:</strong><br>
+  <ul>a. We reserve the right to teminate or suspend your account, without prior notice, for any violation of these terms and conditions or for any other reason at our sole discretion. </ul>
+  <ul>b. In the event of account termination, you will no longer have access to your account and any data associated with it. </ul>
+  <strong>6 Disclaimer of Warranties:</strong><br>
+  <ul>a. Our platform is provided on an "as is" and "as available" basis. We make no warranties or representations, express or implied, regarding the operation or availability of our platform. </ul>
+  <ul>b. We do not warrant that our platform will be error-free, uninterrupted, or free from viruses or other harmful components. </ul>
+  <strong>7. Limitation of Liability: </strong><br>
+  <ul>a. In no event shall we be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or in connection with your use of our platform. We shall not be responsible for any loss or damage to your data or for any unauthorized access to or alteration of your data. </ul>
+  <strong>8. Modifications: </strong><br>
+  <ul>a. We reserve the right to modify or update these terms and conditions at any time without prior notice. Any changes will be effective immediately upon posting on our platform. </ul>
+  <ul>b. It is your responsibility to review these terms and conditions periodically to stay informed of any updates. </ul>
+  By ticking the checkbox or clicking the "Log in" button, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions. If you do not agree with any part of these terms and conditions, please refrain from logging in and using our platform.</p>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+</html>
